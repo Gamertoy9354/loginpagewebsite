@@ -1,21 +1,19 @@
 body{
-    background-image: url("tradingBG.jfif");
+    background-image: url("trade.jfif");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-
-
-    
+    background-size: cover;   
 }
 div{
-    background-color:whitesmoke;
+    backdrop-filter: blur(10px); 
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 
 
-    border: 15px;
+    border: 5px;
     border-radius: 10px;
-    border-color: rgb(170, 0, 255);
+    border-color: rgb(0, 255, 64);
     border-style: outset;
     padding: 20px;
 }
