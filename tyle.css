@@ -15,11 +15,13 @@ body{
   display: inline-block;
   border: none;
   background: #f1f1f100;
+  backdrop-filter: blur(10px); 
 }
 
 input[type=text]:focus, input[type=password]:focus {
   background-color: rgba(10, 243, 212, 0.185);
   outline: none;
+  backdrop-filter: blur(10px); 
 }
 
 hr {
@@ -29,7 +31,7 @@ hr {
 
 /* Set a style for all buttons */
 button {
-  background-color: #04AA6D;
+  background-color: #04aa6df5;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
